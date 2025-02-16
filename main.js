@@ -4,7 +4,12 @@ const { app, BrowserWindow } = require('electron')
 
 // 1.创建应用窗口
 function createWindow() {
-    const win = new BrowserWindow()
+    const win = new BrowserWindow({
+        width: 1200,
+        height: 800,
+        titleBarStyle: 'hidden',
+        titleBarOverlay: true,
+    })
 
     // 3.加载一个页面
     // win.loadFile('./src/public/index.html')
@@ -15,3 +20,8 @@ function createWindow() {
 app.on('ready', () => {
     createWindow()
 })
+
+// 只能 mac 系统上使用
+// app.on('activate', () => {
+//     console.log('Electron 被激活了')
+// })
