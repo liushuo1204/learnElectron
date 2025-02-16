@@ -1,0 +1,19 @@
+{
+  "name": "my-electron-app",
+  "version": "1.0.0",
+  "description": "Hello World",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liushuo1204/learnElectron.git"
+  },
+  "author": "LIU SHUO",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/liushuo1204/learnElectron/issues"
+  },
+  "homepage": "https://github.com/liushuo1204/learnElectron#readme"
+}
