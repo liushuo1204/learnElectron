@@ -12,8 +12,8 @@ function createWindow() {
     })
 
     // 3.加载一个页面
-    // win.loadFile('./src/public/index.html')
-    win.loadURL('https://www.baidu.com')
+    win.loadFile('./src/index.html')
+    // win.loadURL('https://www.baidu.com')
 }
 
 // 2.监听生命周期
