@@ -5,6 +5,10 @@ const { app, BrowserWindow } = require('electron')
 // 1.创建应用窗口
 function createWindow() {
     const win = new BrowserWindow()
+
+    // 3.加载一个页面
+    // win.loadFile('./src/public/index.html')
+    win.loadURL('https://www.baidu.com')
 }
 
 // 2.监听生命周期
